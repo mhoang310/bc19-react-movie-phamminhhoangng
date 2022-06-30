@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  @import './App';
+  @import './msi';
+
+  .btn-outline {
+    // color: #dc4f72;
+    color: #fb4226;
+    border-color: #fb4226;
+  }
+  
+  .btn-outline:hover {
+    color: #fff;
+    background-color: #fb4226;
+    border-color: #fb4226;
+  }
+
+  .jss1066 {
+    padding: 32px;
+    background: url(../../public/img/backapp.b46ef3a1.jpg);
+    min-height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navbar-toggler-icon{
+  background-color: #212121;
+  // color: #212121;
+}
+
+// header
+.jss5 {
+  width: 50px;
+  cursor: pointer;
+  height: 50px;
+}
+.jss9 {
+  color: #000;
+  cursor: pointer;
+  padding: 0px 16px;
+  transition: all .3s;
+  text-decoration: none;
+}
+.jss9:hover {
+  color: #fb4226 !important;
+}
+
+// Footer
+footer{
+  background-color: #212121;
+  color: #fff;
+}
+.footer{
+  padding: 50px 0;
+}
+.footer__content{
+  overflow: hidden;
+  margin-bottom: 20px;
+  border-bottom: solid 2px rgba(180, 179, 179,0.5);
+  padding-bottom: 15px;
+}
+.footer__item{
+  float: left;
+  width: 33%;
+  
+
+}
+.footer__item + .footer__item{
+  padding-left: 50px;
+}
+.footer__item h3{
+  margin-bottom: 20px;
+  font-size: 22px;
+  line-height: 22px;
+}
+.footer__item li{
+  margin-bottom: 10px;
+  line-height: 25px;
+  list-style: none;
+}
+.footer__item li a{
+  text-decoration: none;
+  color: #fff;
+}
+.footer__item li a:hover{
+  color:rgba(255, 166, 0, 1);
+  text-decoration: underline;
+  
+}
+.footer__item--contact i{
+  color:rgba(255, 166, 0, 1);
+  margin-right: 10px;
+}
+
+.jss145 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+/* BACK TO TOP */
+.backToTop {
+  /* canh chinh vi tri */
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  
+  display: block;
+  width: 50px;
+  height: 50px;
+  font-size: 1rem;
+  color: white;
+  background-color: #f55f8d;
+  text-align: center;
+  line-height: 50px;
+  border-radius: 5px;
+  box-shadow: -4px 4px 24px -10px #f55f8d;
+
+  opacity: 0;
+  visibility: hidden;
+}
+
+.backToTop:hover {
+  cursor: pointer;
+}
+
+.cd-top--is-visible { 
+  visibility: visible;
+  opacity: 1;
+}
